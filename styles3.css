@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E3EAFC; 
+}
+header {
+    background-color: #838181;
+    color: white;
+    padding: 10px 0;
+    text-align: left;
+    height: 150px;
+
+}
+
+.logo {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(242, 242, 242);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    background-color: rgba(0, 27, 199, 0.5);
+}
+.main {
+    font-size: 2.5em;
+    color: #000000;
+}
+
+/* Стили для овалов с функциями */
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Расстояние между овалами */
+    margin: 50px 0;
+}
+/* Стили для футера */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.info-box {
+    background-color: rgba(0, 27, 199, 0.5);
+    padding: 20px;
+    margin: 20px;
+    margin-top: 30px;
+    margin-left: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 1000px;
+    height: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #E3EAFC;
+}
